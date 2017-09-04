@@ -86,7 +86,7 @@ Vagrant.configure("2") do |config|
       mkdir -p ${GOPATH}/src/github.com/isucon/
       cd ${GOPATH}/src/github.com/isucon
       rm -rf isucon6-qualify
-      git clone https://github.com/isucon/isucon6-qualify.git
+      git clone -b po/configures2 https://github.com/negipo/isucon6-qualify.git
       (
         cd isucon6-qualify/bench
 	go get github.com/Songmu/timeout
